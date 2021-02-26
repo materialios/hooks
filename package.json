@@ -1,18 +1,27 @@
 {
   "name": "@materialios/hooks",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "ReactJs hooks for @materialios",
-  "main": "index.js",
+  "private": false,
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf lib && npx babel src --out-dir lib && npm --no-git-tag-version version patch"
   },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/materialios/hooks.git"
   },
   "keywords": [
+    "@materialios/hooks",
     "materialios",
-    "hooks"
+    "hooks",
+    "material",
+    "design",
+    "android",
+    "ios",
+    "ui",
+    "ux"
   ],
   "author": "Muhammad Rendra",
   "license": "ISC",
@@ -20,5 +29,22 @@
     "url": "https://github.com/materialios/hooks/issues"
   },
   "homepage": "https://github.com/materialios/hooks#readme",
-  "private": false
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-react",
+        {
+          "runtime": "automatic"
+        }
+      ]
+    ]
+  },
+  "peerDependencies": {
+    "react": "^16.x.x"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.1",
+    "@babel/preset-react": "^7.12.13"
+  }
 }
