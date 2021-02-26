@@ -1,0 +1,24 @@
+{
+  "name": "@materialios/hooks",
+  "version": "0.1.0",
+  "description": "ReactJs hooks for @materialios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/materialios/hooks.git"
+  },
+  "keywords": [
+    "materialios",
+    "hooks"
+  ],
+  "author": "Muhammad Rendra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/materialios/hooks/issues"
+  },
+  "homepage": "https://github.com/materialios/hooks#readme",
+  "private": false
+}
