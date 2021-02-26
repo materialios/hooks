@@ -1,6 +1,6 @@
 {
   "name": "@materialios/hooks",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ReactJs hooks for @materialios",
   "main": "index.js",
   "scripts": {
