@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-import useWindowSize from './useWindowSize'
+import useWindowSize from '../useWindowSize'
 
 export const ORIENTATION = {
   PORTRAIT: 'Portrait',
