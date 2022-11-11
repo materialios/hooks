@@ -1,6 +1,6 @@
 {
   "name": "@materialios/hooks",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "description": "ReactJs hooks for @materialios",
   "private": false,
   "main": "lib/index.js",
@@ -40,11 +40,11 @@
     ]
   },
   "peerDependencies": {
-    "react": ">=16.8.0"
+    "react": "^18.2.0"
   },
   "devDependencies": {
-    "@babel/cli": "^7.13.0",
-    "@babel/core": "^7.13.1",
-    "@babel/preset-react": "^7.12.13"
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/preset-react": "^7.18.6"
   }
 }
